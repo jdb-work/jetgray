@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.0.1x" type="repository">
+    <properties maven-id="org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.0.1x" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/devel/libs/coveralls-gradle-plugin-2.0.1x.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/httpmime-4.1.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/httpcore-4.1.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/httpclient-4.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/commons-codec-1.6.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/http-builder-0.7.1.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/json-lib-2.3-jdk15.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/commons-beanutils-1.8.0.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/commons-collections-3.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/commons-lang-2.4.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/ezmorph-1.0.6.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/nekohtml-1.9.16.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/xercesImpl-2.9.1.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/xml-apis-1.3.04.jar!/" />
+      <root url="jar://$USER_HOME$/devel/libs/xml-resolver-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/devel/libs/coveralls-gradle-plugin-2.0.1x-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/devel/libs/coveralls-gradle-plugin-2.0.1x-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
