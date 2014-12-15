@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/fit-gradle.iml" filepath="$PROJECT_DIR$/fit-gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jetgray.iml" filepath="$PROJECT_DIR$/jetgray.iml" />
     </modules>
   </component>
 </project>

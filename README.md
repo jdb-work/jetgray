@@ -13,14 +13,29 @@ The project's structure is laid out as follows
       +- src
           |
           +- main
+          |   |
+          |   +- <jvm-lang-name>
+          |   |    |
+          |   |    +- package.tree
+          |   |
+          |   |          //application sources
+          |   |
+          |   +- resources
+          |
+          |        //application resources
+          |
+          +- test
               |
-              +- java
+              +- <jvm-lang-name>
+              |    |
+              |    +- package.tree
               |
-                 // application sources
+              |          //test sources
               |
               +- resources
-              |
-                 // application resources
+
+                   //test resources
+
 
 Execute the following command to compile and package the project
 
