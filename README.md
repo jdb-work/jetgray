@@ -1,7 +1,7 @@
 Fit-Gradle
 ==========
 
-[ ![Codeship Status for jdb-work/fit-gradle](https://codeship.com/projects/7e0e3190-65ce-0132-6ad5-0a13539b979f/status?branch=master)](https://codeship.com/projects/52740)
+[[ ![Codeship Status for jdb-work/jetgray](https://codeship.com/projects/f39bf470-660e-0132-c8b5-66851841475d/status?branch=master)](https://codeship.com/projects/52784)
 
 Project template layout
 -----------------------
