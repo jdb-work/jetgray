@@ -40,4 +40,18 @@ task wrapper(type: Wrapper) {
 }
 
 
+task runSomeScript(type: JavaExec) {
+    description 'Run some script.'
+
+    // Set main property to name of Groovy script class.
+    main = 'ecosystem.main.SomeScript'
+
+    // Set classpath for running the Groovy script.
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+task stage() {}
+
+defaultTasks 'runScript'
+
 

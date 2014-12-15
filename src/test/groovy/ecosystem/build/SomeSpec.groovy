@@ -4,12 +4,12 @@ import spock.lang.Specification
 
 class SomeSpec extends Specification {
 
-    def "something exists"() {
+    def "thing:SomeType exists"() {
         setup:
         def thing
 
         when:
-        thing = new Something()
+        thing = new SomeThing()
 
         then:
         noExceptionThrown()
