@@ -1,4 +1,4 @@
-package ecosystem.build
+package ecosystem.main
 
 import spock.lang.Specification
 
@@ -9,7 +9,7 @@ class SomeSpec extends Specification {
         def thing
 
         when:
-        thing = new Something()
+        thing = new SomeThing()
 
         then:
         noExceptionThrown()

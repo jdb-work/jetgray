@@ -39,5 +39,27 @@ task wrapper(type: Wrapper) {
     gradleVersion = "2.2.1"
 }
 
+// File: build.gradle
+apply plugin: 'groovy'
 
+dependencies {
+    compile localGroovy()
+}
+
+task runScript(type: JavaExec) {
+    description 'Run Groovy script'
+
+    // Set main property to name of Groovy script class.
+    main = 'ecosystem.main'
+
+    // Set classpath for running the Groovy script.
+    classpath = sourceSets.main.runtimeClasspath
+
+    if (project.hasProperty('custom')) {
+        // Pass command-line argument to script.
+        args project.getProperty('custom')
+    }
+}
+
+defaultTasks 'runScript'
 
