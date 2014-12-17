@@ -1,4 +1,4 @@
-package ecosystem.main
+package ecosystem.build
 
 import spock.lang.Specification
 
